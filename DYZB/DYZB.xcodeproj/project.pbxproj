@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2B9FB4C1201C8B06007EC995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FB4C0201C8B06007EC995 /* AppDelegate.swift */; };
-		2B9FB4C3201C8B06007EC995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FB4C2201C8B06007EC995 /* ViewController.swift */; };
 		2B9FB4C6201C8B06007EC995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9FB4C4201C8B06007EC995 /* Main.storyboard */; };
 		2B9FB4C8201C8B06007EC995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9FB4C7201C8B06007EC995 /* Assets.xcassets */; };
 		2B9FB4CB201C8B06007EC995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9FB4C9201C8B06007EC995 /* LaunchScreen.storyboard */; };
-		2B9FB4D6201C8B06007EC995 /* DYZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FB4D5201C8B06007EC995 /* DYZBTests.swift */; };
-		2B9FB4E1201C8B06007EC995 /* DYZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FB4E0201C8B06007EC995 /* DYZBUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +33,12 @@
 /* Begin PBXFileReference section */
 		2B9FB4BD201C8B06007EC995 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9FB4C0201C8B06007EC995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B9FB4C2201C8B06007EC995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B9FB4C5201C8B06007EC995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B9FB4C7201C8B06007EC995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B9FB4CA201C8B06007EC995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B9FB4CC201C8B06007EC995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B9FB4D1201C8B06007EC995 /* DYZBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B9FB4D5201C8B06007EC995 /* DYZBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYZBTests.swift; sourceTree = "<group>"; };
-		2B9FB4D7201C8B06007EC995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B9FB4DC201C8B06007EC995 /* DYZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B9FB4E0201C8B06007EC995 /* DYZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYZBUITests.swift; sourceTree = "<group>"; };
-		2B9FB4E2201C8B06007EC995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				2B9FB4BF201C8B06007EC995 /* DYZB */,
-				2B9FB4D4201C8B06007EC995 /* DYZBTests */,
-				2B9FB4DF201C8B06007EC995 /* DYZBUITests */,
 				2B9FB4BE201C8B06007EC995 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,8 +87,8 @@
 		2B9FB4BF201C8B06007EC995 /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				2B9FB4EE201EF923007EC995 /* Classes */,
 				2B9FB4C0201C8B06007EC995 /* AppDelegate.swift */,
-				2B9FB4C2201C8B06007EC995 /* ViewController.swift */,
 				2B9FB4C4201C8B06007EC995 /* Main.storyboard */,
 				2B9FB4C7201C8B06007EC995 /* Assets.xcassets */,
 				2B9FB4C9201C8B06007EC995 /* LaunchScreen.storyboard */,
@@ -107,22 +97,59 @@
 			path = DYZB;
 			sourceTree = "<group>";
 		};
-		2B9FB4D4201C8B06007EC995 /* DYZBTests */ = {
+		2B9FB4EE201EF923007EC995 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2B9FB4D5201C8B06007EC995 /* DYZBTests.swift */,
-				2B9FB4D7201C8B06007EC995 /* Info.plist */,
+				2B9FB4F4201EF923007EC995 /* Main */,
+				2B9FB4EF201EF923007EC995 /* Home */,
+				2B9FB4F3201EF923007EC995 /* Live */,
+				2B9FB4F1201EF923007EC995 /* Follow */,
+				2B9FB4F2201EF923007EC995 /* Profile */,
+				2B9FB4F0201EF923007EC995 /* Tools */,
 			);
-			path = DYZBTests;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		2B9FB4DF201C8B06007EC995 /* DYZBUITests */ = {
+		2B9FB4EF201EF923007EC995 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				2B9FB4E0201C8B06007EC995 /* DYZBUITests.swift */,
-				2B9FB4E2201C8B06007EC995 /* Info.plist */,
 			);
-			path = DYZBUITests;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2B9FB4F0201EF923007EC995 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2B9FB4F1201EF923007EC995 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		2B9FB4F2201EF923007EC995 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2B9FB4F3201EF923007EC995 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		2B9FB4F4201EF923007EC995 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B9FB4C3201C8B06007EC995 /* ViewController.swift in Sources */,
 				2B9FB4C1201C8B06007EC995 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B9FB4D6201C8B06007EC995 /* DYZBTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B9FB4E1201C8B06007EC995 /* DYZBUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
